@@ -18,18 +18,6 @@
 		<p class="headerName">{{ site.app_name }}</p>
 	</div>
 	<nav class="scroll">
-		<div class="logo">
-			<div>
-				<a href="{{ site.website_link }}">
-					<span class="fa-stack fa-1x">
-						<i class="iconBack fas fa-circle fa-stack-2x"></i>
-						<i class="iconTop fas fa-globe fa-stack-1x"></i>
-					</span>
-				</a>
-				<div class="divider"></div>
-			</div>
-			<p class="headerName"><a href="{{ site.website_link }}">Use Web</a></p>
-		</div>
 		<ul>
 			{% for page in site.pages %}
 				{% if page.include_in_header == true %}
